@@ -1,0 +1,24 @@
+{
+  "name": "f.cs330",
+  "version": "0.0.2",
+  "main": "index.js",
+  "repository": "https://github.com/tuguldur/F.CS330.git",
+  "author": "Khuvituguldur Narantsetseg",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "mongoose": "^5.11.17",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
